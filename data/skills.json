@@ -1,0 +1,128 @@
+[
+	{
+		"skill": "Javascript",
+		"level": "◆◆⬖",
+		"type": "frontend",
+		"icon": "javascript"
+	},
+	{
+		"skill": "Android",
+		"level": "◆◆⬖",
+		"type": "frontend",
+		"icon": "android"
+	},
+	{
+		"skill": "Java",
+		"level": "◆◆⬖",
+		"type": "backend",
+		"icon": "java"
+	},
+	{
+		"skill": "Perl",
+		"level": "◆◆⬖",
+		"type": "backend",
+		"icon": "perl"
+	},
+	{
+		"skill": "Python3",
+		"level": "◆◆⬖",
+		"type": "backend",
+		"icon": "python"
+	},
+	{
+		"skill": "Node.js",
+		"level": "◆◆⬖",
+		"type": "backend",
+		"icon": "node.js"
+	},
+	{
+		"skill": "PHP",
+		"level": "◆◆◇",
+		"type": "backend",
+		"icon": "php"
+	},
+	{
+		"skill": "C/C++",
+		"level": "◆◆◇",
+		"type": "backend",
+		"icon": "c++"
+	},
+	{
+		"skill": "Celery",
+		"level": "◆◆⬖",
+		"type": "tool",
+		"icon": "celery"
+	},
+	{
+		"skill": "RabbitMQ",
+		"level": "◆◆⬖",
+		"type": "tool",
+		"icon": "rabbitmq"
+	},
+	{
+		"skill": "Lucene",
+		"level": "◆◆⬖",
+		"type": "data",
+		"icon": "lucene"
+	},
+	{
+		"skill": "RegExp",
+		"level": "◆◆◆",
+		"type": "tool",
+		"icon": ""
+	},
+	{
+		"skill": "Socket.io",
+		"level": "◆◆⬖",
+		"type": "library",
+		"icon": ""
+	},
+	{
+		"skill": "Polymer",
+		"level": "◆◆◆",
+		"type": "frontend",
+		"icon": "polymer"
+	},
+	{
+		"skill": "LitElement",
+		"level": "◆◆⬖",
+		"type": "frontend",
+		"icon": "litelement"
+	},
+	{
+		"skill": "React Native",
+		"level": "◆⬖◇",
+		"type": "frontend",
+		"icon": "react"
+	},
+	{
+		"skill": "React",
+		"level": "◆⬖◇",
+		"type": "frontend",
+		"icon": "react"
+	},
+	{
+		"skill": "OpenAPI",
+		"level": "◆◆◇",
+		"type": "data",
+		"icon": "swagger"
+	},
+	{
+		"skill": "Blockchain",
+		"level": "◆◇◇",
+		"type": "frontend",
+		"icon": ""
+	},
+	{
+		"skill": "Flutter",
+		"level": "⬖◇◇",
+		"type": "frontend",
+		"icon": "flutter"
+	},
+	{
+		"skill": "MySql/NoSQL",
+		"level": "◆◆⬖",
+		"type": "data",
+		"icon": "mysql"
+	}
+]

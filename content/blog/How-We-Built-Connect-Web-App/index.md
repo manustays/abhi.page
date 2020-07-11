@@ -5,6 +5,7 @@ draft: false
 tags: ["architecture"]
 author: "Kumar Abhishek"
 image: "connect.jpeg"
+summary: "The story of designing the Interaction Framework and a PWA, enabling us to automate the process of building and delivering financial products & services to our users."
 ---
 
 
