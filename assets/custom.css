@@ -11,3 +11,17 @@
 	max-width: auto;
 	margin:2px 5px;
 }
+
+.hero-body > .container > .bold-title, .hero-body > .container > .subtitle {
+	pointer-events: none;
+	user-select: none;
+}
+
+#canvas {
+	position:absolute;
+	top:0;left:0;right:0;
+	width:100%;
+	filter: blur(2px);
+  	-webkit-filter: blur(2px);
+	/* z-index: -1; */
+}
