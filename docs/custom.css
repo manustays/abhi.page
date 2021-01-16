@@ -1,0 +1,111 @@
+.avatar {
+	border-radius: 50%;
+}
+
+.social-icons > * {
+	display: inline-block;
+    margin: 0 15px;
+}
+
+.badgebox > img {
+	display: inline-block;
+	max-width: auto;
+	margin:2px 5px;
+}
+
+.hero-body > .container > .bold-title, .hero-body > .container > .subtitle {
+	pointer-events: none;
+	user-select: none;
+}
+
+/* Connected dots (stars) animation */
+#canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	filter: blur(2px);
+  	-webkit-filter: blur(2px);
+}
+
+/* Social share icons on blog pages */
+.blog-share, .blog-share > div {
+	display: inline-block;
+	position: relative;
+}
+.fab.share {
+  font-size: 1.2rem;
+  margin: 0 5px;
+}
+
+a.atag {
+	background: #ed6a5a;
+	color: #fff;
+	font-size: 0.8em;
+	padding: 0 5px;
+	border-radius: 3px;
+}
+
+.skilltag {
+	font-size: 0.8em;
+	background: #333;
+	padding: 0 5px;
+	border-radius: 2px;
+}
+
+.skilltag:not(:last-of-type) {
+	margin-right: 5px;
+}
+
+/*
+.skilltag::after {
+	content: attr(level);
+	padding: 0 4px;
+	margin-left: 4px;
+	background: #0F80C1;
+} */
+
+
+/* ===================== TOOLTIP ========================== */
+
+[tooltip]:not([tooltip=""]):not([notooltip]):before {
+	content:attr(tooltip);
+	display:inline-block;
+	position:absolute !important;
+	outline:none;
+	top:0;
+	/* left:auto !important;
+	right:auto !important; */
+	opacity:0;
+	outline:none;
+	line-height:1.3;
+	z-index:999999999999;
+	pointer-events:none;
+	width:0;
+	height:0;
+
+	backface-visibility:hidden;
+
+	transition:none;
+	padding:8px;
+	color:#FFF;
+	font-size:10px;
+	font-weight:400;
+	border-radius:2px;
+	min-height:1.5em;
+	margin-top:5em;
+
+	background:#616161;
+}
+
+[tooltip]:not([tooltip=""]):not([notooltip])[tooltip-config~="top"]:before {
+	margin-top:-40px;
+}
+
+[tooltip]:not([tooltip=""]):not([notooltip]):hover:before {
+	transition: opacity 0.5s ease-out 0s;
+
+	opacity: 0.9;
+	width:auto; height:auto;
+}
