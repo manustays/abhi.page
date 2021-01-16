@@ -17,8 +17,8 @@
 [nav_main]
     other = "main"
 [blog_readingTime]
-    one = "{{ .Count }} minute read"
-    other = "{{ .Count }} minutes read"
+    one = "{{ .Count }} min read"
+    other = "{{ .Count }} mins read"
 [blog_shareThis]
     other = "Share this"
 [footer_text]

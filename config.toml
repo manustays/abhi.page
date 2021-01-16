@@ -31,7 +31,7 @@ googleAnalytics = "UA-166494184-1"		# https://gohugo.io/templates/internal/#goog
         showAllPosts             = true			# Set true to list all posts on home page, or set false to link to separate blog list page
         numberOfProjectsToShow   = 3				# Maximum number of projects to show on home page. Unset or comment out to show all projects
 
-        localTime                = true				# Show your current local time in contact section
+        localTime                = false			# Show your current local time in contact section
         timeZone                 = "Asia/Calcutta"	# Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
         timeFormat               = "h:mm A"			# https://momentjs.com/docs/#/displaying/format/
     [params.projects]
@@ -43,35 +43,41 @@ googleAnalytics = "UA-166494184-1"		# https://gohugo.io/templates/internal/#goog
         facebook                 = true
         googlePlus               = false
         pinterest                = false
+		twitterId				 = "@abhiweb"			# Twitter ID for blog post share
 
     # Social icons appear in introduction and contact section. Add as many more as you like.
     # Icon pack "fab" includes social network icons, see: https://fontawesome.com/icons?d=gallery&s=brands&m=free
     # Icon pack "fas" includes solid style icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
     [[params.social]]
+		name = "LinkedIn"
         url   = "https://linkedin.com/in/abhiweb"
         icon  = "linkedin-in" # icon name without the 'fa-'
         icon_pack = "fab"
-		html_attributes = "title=\"LinkedIn: abhiweb\""
+		html_attributes = "tooltip=\"LinkedIn: abhiweb\""
     [[params.social]]
+		name = "GitHub"
         url   = "https://github.com/manustays"
         icon  = "github" # icon name without the 'fa-'
         icon_pack = "fab"
-		html_attributes = "title=\"Github: manustays\""
+		html_attributes = "tooltip=\"Github: manustays\""
     [[params.social]]
+		name = "Twitter"
         url   = "https://twitter.com/abhiweb"
         icon  = "twitter" # icon name without the 'fa-'
         icon_pack = "fab"
-		html_attributes = "title=\"Twitter: @abhiweb\""
+		html_attributes = "tooltip=\"Twitter: @abhiweb\""
     [[params.social]]
+		name = "Pinterest"
         url   = "https://in.pinterest.com/manustays/"
         icon  = "pinterest" # icon name without the 'fa-'
         icon_pack = "fab"
-		html_attributes = "title=\"Pinterest: manustays\""
+		html_attributes = "tooltip=\"Pinterest: manustays\""
     [[params.social]]
+		name = "Stack Overflow"
         url   = "https://stackoverflow.com/users/505601/abhishek?tab=profile"
         icon  = "stack-overflow" # icon name without the 'fa-'
         icon_pack = "fab"
-		html_attributes = "title=\"Stack Overflow\""
+		html_attributes = "tooltip=\"Stack Overflow\""
     # [[params.social]]
     #    url   = "https://facebook.com/"
     #    icon  = "facebook-f" # icon name without the 'fa-'

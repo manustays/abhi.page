@@ -118,11 +118,5 @@
 		"level": "⬖◇◇",
 		"type": "frontend",
 		"icon": "flutter"
-	},
-	{
-		"skill": "MySql/NoSQL",
-		"level": "◆◆⬖",
-		"type": "data",
-		"icon": "mysql"
 	}
 ]

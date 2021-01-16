@@ -101,8 +101,6 @@ var processMouse = function (e) {
 	mouse.y = e.clientY;
 }
 
-canvas.addEventListener('mousemove', processMouse);
-
 var stopAnimation = function() {
 	stop = true;
 	canvas.removeEventListener('mousemove', processMouse);
@@ -143,6 +141,10 @@ function startAnimating(fps) {
 	animate();
 
 	setTimeout(stopAnimation, 30000);
+
+	if (mobile !== true) {
+		canvas.addEventListener('mousemove', processMouse);
+	}
 }
 
 startAnimating(30);

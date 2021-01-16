@@ -1,5 +1,8 @@
 {{- if .Site.DisqusShortname }}
-    <div class="disqus">
+    <div class="disqus container top-pad">
+		<br>
+		<hr>
+		<br>
         {{ template "_internal/disqus.html" . }}
     </div>
 {{- end }}

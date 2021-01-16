@@ -1,7 +1,9 @@
 <div class="social-icons">
-    {{ range .Site.Params.social }}
-    <a href="{{ .url }}" {{ .html_attributes | safeHTMLAttr }}>
-        <i class="{{ .icon_pack}} fab fa-{{ .icon}}"></i>
-    </a>
+	{{ range .Site.Params.social }}
+	<div style="position:relative" {{ .html_attributes | safeHTMLAttr }}>
+		<a href="{{ .url }}">
+			<i class="{{ .icon_pack}} fab fa-{{ .icon}}"></i>
+		</a>
+	</div>
     {{ end }}
 </div>
